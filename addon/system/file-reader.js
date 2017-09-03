@@ -1,4 +1,4 @@
-import RSVP from 'rsvp';
+import {RSVP} from 'ember';
 
 /**
   Provides a promise-aware interface for reading files.

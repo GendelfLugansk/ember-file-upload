@@ -2,7 +2,7 @@
 import Ember from 'ember';
 import FileReader from './system/file-reader';
 import HTTPRequest from './system/http-request';
-import RSVP from 'rsvp';
+import {RSVP} from 'ember';
 import uuid from './system/uuid';
 
 import get from 'ember-metal/get';
