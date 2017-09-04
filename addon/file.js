@@ -2,13 +2,12 @@
 import Ember from 'ember';
 import FileReader from './system/file-reader';
 import HTTPRequest from './system/http-request';
-import {RSVP} from 'ember';
 import uuid from './system/uuid';
 
 import get from 'ember-metal/get';
 import set from 'ember-metal/set';
 
-const { computed } = Ember;
+const { computed, RSVP } = Ember;
 const { reads } = computed;
 
 function normalizeOptions(file, url, options) {

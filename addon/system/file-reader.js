@@ -1,4 +1,5 @@
-import {RSVP} from 'ember';
+import Ember from 'ember';
+const {RSVP} = Ember;
 
 /**
   Provides a promise-aware interface for reading files.
